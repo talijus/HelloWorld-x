@@ -17,9 +17,11 @@ namespace HelloWorld
             Console.WriteLine(module.SayHello(args[0]));
             Console.ReadLine();*/
             Console.WriteLine("Starting test...");
+            Console.WriteLine(args[0]);
 
             var HomeWorkObj = new HomeWork();
             Console.WriteLine(HomeWorkObj.SentenceCase(args));
+
             Console.ReadLine();
 
         }

@@ -3,3 +3,4 @@
 \\cigcrlfas07\vdiprofiles$\vitalijusz\My Documents\GH\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
 \\cigcrlfas07\vdiprofiles$\vitalijusz\My Documents\GH\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 \\cigcrlfas07\vdiprofiles$\vitalijusz\My Documents\GH\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+\\cigcrlfas07\VDIProfiles$\vitalijusz\My Documents\GH\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using HelloWorld;
 
 namespace HelloWorld
 {
@@ -12,7 +13,8 @@ namespace HelloWorld
                 return;
             }
 
-            Console.WriteLine(string.Format("Hello World - {0}!", args[0]));
+            var module = new HelloModule();
+            Console.WriteLine(module.SayHello(args[0]));
             Console.ReadLine();
         }
     }

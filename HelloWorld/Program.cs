@@ -1,10 +1,4 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;*/
-
-using System;
+﻿using System;
 
 namespace HelloWorld
 {
@@ -12,7 +6,13 @@ namespace HelloWorld
     {
         protected static void Main(string[] args)
         {
-            Console.writeline("Hello World");
+            if (args.Length < 1)
+            {
+                Console.WriteLine("No arguments, program requires at least one argument");
+                return;
+            }
+
+            Console.WriteLine(string.Format("Hello World - {0}!", args[0]));
             Console.ReadLine();
         }
     }

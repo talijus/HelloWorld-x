@@ -13,9 +13,15 @@ namespace HelloWorld
                 return;
             }
 
-            var module = new HelloModule();
+            /*var module = new HelloModule();
             Console.WriteLine(module.SayHello(args[0]));
+            Console.ReadLine();*/
+            Console.WriteLine("Starting test...");
+
+            var HomeWorkObj = new HomeWork();
+            Console.WriteLine(HomeWorkObj.SentenceCase(args));
             Console.ReadLine();
+
         }
     }
 }

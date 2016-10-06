@@ -39,7 +39,8 @@ namespace HelloWorld
             Console.WriteLine("\nHomeWork 2\n");
             var HomoWorkObj2 = new HelloWorld.HomeWorkV2();
 
-            Console.WriteLine("Most frequently used symbol is : " + HomoWorkObj2.MaxSymbol(ar));
+            Console.WriteLine("Most frequently used symbol is : " + HomoWorkObj2.MaxSymbol(ar) + "\n\n");
+            Console.WriteLine("Test Hello, " + HomoWorkObj2.SentenceCase(args));
 
             Console.ReadLine();
         }

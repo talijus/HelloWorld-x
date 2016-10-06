@@ -153,7 +153,7 @@ namespace HelloWorld
             }
             //Console.WriteLine(hist[max].symbol.ToString() + " - " + hist[max].frequency.ToString());
 
-            return hist[max].symbol.ToString() + " - " + hist[max].frequency.ToString();
+            return "\"" +hist[max].symbol.ToString() + "\" - " + hist[max].frequency.ToString();
         }
 
     }

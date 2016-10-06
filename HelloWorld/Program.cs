@@ -33,13 +33,13 @@ namespace HelloWorld
             Console.WriteLine("HomeWork 1\n");
 
             var HomeWorkObj1 = new HelloWorld.HomeWork();
-            Console.WriteLine(HomeWorkObj1.SentenceCase(args));
+            Console.WriteLine("Hello, " + HomeWorkObj1.SentenceCase(args));
 
 
             Console.WriteLine("\nHomeWork 2\n");
             var HomoWorkObj2 = new HelloWorld.HomeWorkV2();
 
-            Console.WriteLine("most frequently used symbol is : " + HomoWorkObj2.MaxSymbol(ar));
+            Console.WriteLine("Most frequently used symbol is : " + HomoWorkObj2.MaxSymbol(ar));
 
             Console.ReadLine();
         }

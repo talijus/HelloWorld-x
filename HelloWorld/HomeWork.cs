@@ -32,8 +32,14 @@
 
         public string WordFirstUpper(string word)
         {
-
-            return word.Substring(0, 1).ToUpper() + word.Substring(1, word.Length-1);
+            if (word.Length != 1)
+            {
+                return word.Substring(0, 1).ToUpper() + word.Substring(1, word.Length-1);
+            }
+            else
+            {
+                return word.Substring(0, 1).ToUpper();
+            }
         }
 
         private bool WordValidation(string word)
@@ -48,4 +54,14 @@
             }
         }
     }
+
+    public class HomeWorkV2 : HomeWork
+    {
+        public string QQ()
+        {
+            return "QQ";
+        }
+    }
 }
+
+

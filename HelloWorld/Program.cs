@@ -19,11 +19,14 @@ namespace HelloWorld
             Console.WriteLine("Starting test...");
             Console.WriteLine(args[0]);
 
-            var HomeWorkObj = new HomeWork();
-            Console.WriteLine(HomeWorkObj.SentenceCase(args));
+            var HomeWorkObj1 = new HelloWorld.HomeWork();
+            Console.WriteLine(HomeWorkObj1.SentenceCase(args));
+
+            
+
+            var HomoWorkObj2 = new HelloWorld.HomeWorkV2();
 
             Console.ReadLine();
-
         }
     }
 }

@@ -156,6 +156,12 @@ namespace HelloWorld
             return "\"" +hist[max].symbol.ToString() + "\" - " + hist[max].frequency.ToString();
         }
 
+        public void Result(out string r1)
+        {
+            r1 = "Result";
+
+        }
+
     }
 }
 
